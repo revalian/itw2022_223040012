@@ -32,6 +32,7 @@ h1 {
 
 .lian:hover {
   color: red;
+  text-decoration: none;
 }
 
 .mark:hover {
