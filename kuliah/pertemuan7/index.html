@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern CSS</title>
+    <style>
+        body{
+            height: 5000px;
+        }
+        h1{
+            text-align: center;
+            margin-top: 100px;
+            font-family: arial;
+            font-size: 100px;
+            color: palevioletred;
+            text-shadow: 0px 5px 0px pink;
+        }
+      .kotak1 {
+        width: 150px;
+        height: 150px;
+        background-color: rgba(253, 100, 100, 0.5); /* si 0,5 nya buat opacity*/
+        margin: auto; /*buat bikin objek jadi di tengah*/
+        border-radius: 5;
+        opacity: 1;
+        position: relative;
+        z-index: 10;
+      }
+      
+      p {
+        position: relative;
+        top: -100px;
+      }
+
+      .kotak2{
+        width: 200px;
+        height: 200px;
+        background-color: lightblue;
+        margin: auto;
+        box-shadow: 10px 10px 10px red, -10px -10px 10px blue, 10px -10px 10px orange;
+      }
+
+      .kotak3{
+        width: 200px;
+        height: 200px;
+        background-color: pink;
+        margin: auto;
+        font-size: 50px;
+        text-align: center;
+        line-height: 200px;
+        transition: 5s all,;
+      }
+
+      .kotak3:hover{
+        transform: rotate(789deg);
+        background-color: darkviolet;
+        border-radius: 50%5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="kotak1">Lorem ipsum dolor sit amet.</div>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
+      repudiandae architecto, quidem, nostrum molestias, facere labore corrupti
+      deserunt debitis laudantium quod fuga praesentium itaque sequi dolores
+      autem illo placeat perferendis?
+    </p>
+    <div class="kotak2"></div>
+
+    <h1>Revalian</h1>
+
+    <div class="kotak3">1</div>
+  </body>
+</html>
